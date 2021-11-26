@@ -1,0 +1,15 @@
+// For fixing issue with className not match server and client
+// Current fix is to remove .next folder to clear the cache
+// {
+//   "presets": [
+//     "next/babel"
+//   ],
+//   "plugins": [
+//     [
+//       "styled-components",
+//       {
+//         "ssr": true
+//       }
+//     ]
+//   ]
+// }
