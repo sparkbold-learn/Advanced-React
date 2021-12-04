@@ -3,7 +3,6 @@ import NProgress from 'nprogress';
 import Router from 'next/router';
 import Page from '../components/Page';
 
-import 'nprogress/nprogress.css';
 import '../components/styles/nprogress.css';
 
 // Add progress bar when changing route

@@ -2,7 +2,7 @@ import Document, { Html, Head, NextScript, Main } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
-  // For fixing issue with className not match server and client
+  // For fixing issue with flicker and className not match server and client
   // Current fix is also need to remove .next folder to clear the cache
 
   static getInitialProps({ renderPage }) {
